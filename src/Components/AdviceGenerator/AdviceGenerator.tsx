@@ -41,7 +41,7 @@ export const AdviceGenerator: FC = () => {
                 >
                     <Card
                         textAlign='center'
-                        w={{ base: '90%', sm: '30rem' }}
+                        w={{ base: '90%', sm: '35rem' }}
                         bg='hsl(217, 19%, 24%)'
                         fontWeight={700}
                         borderRadius='xl'
@@ -77,15 +77,17 @@ export const AdviceGenerator: FC = () => {
                                 }
                             </Flex>
                         </CardBody>
-                        <CardFooter>
+                        <CardFooter justifyContent='center'>
+
                             <Flex
                                 direction='column'
+                                justifyContent='center'
                                 alignItems='center'
                             >
 
                                 <Image
                                     mb={4}
-                                    w='85%'
+                                    w='100%'
                                     src={imageDivider}
                                     alt='divider'
                                 />
@@ -108,6 +110,7 @@ export const AdviceGenerator: FC = () => {
                                         src={diceImage}
                                     />
                                 </Box>
+
                             </Flex>
 
                         </CardFooter>
