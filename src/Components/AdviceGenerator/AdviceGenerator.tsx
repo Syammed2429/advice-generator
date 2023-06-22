@@ -43,7 +43,7 @@ export const AdviceGenerator: FC = () => {
                         textAlign='center'
                         w={{ base: '90%', sm: '30rem' }}
                         bg='hsl(217, 19%, 24%)'
-                        fontWeight={500}
+                        fontWeight={700}
                         borderRadius='xl'
                     >
 
