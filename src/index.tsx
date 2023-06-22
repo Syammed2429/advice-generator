@@ -9,7 +9,8 @@ const theme = extendTheme({
     initialColorMode: 'dark',
     useSystemColorMode: false,
   }
-})
+});
+
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
