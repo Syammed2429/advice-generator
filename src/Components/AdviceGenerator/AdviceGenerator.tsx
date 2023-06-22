@@ -35,11 +35,16 @@ export const AdviceGenerator: FC = () => {
                 w='100%'
             >
                 <Flex
+                    justifyContent='center'
+
 
                 >
                     <Card
                         textAlign='center'
-                        w='30rem'
+                        w={{ base: '90%', sm: '30rem' }}
+                        bg='hsl(217, 19%, 24%)'
+                        fontWeight={500}
+                        borderRadius='xl'
                     >
 
                         <Text
@@ -73,7 +78,6 @@ export const AdviceGenerator: FC = () => {
                             </Flex>
                         </CardBody>
                         <CardFooter>
-                            {/* <Center> */}
                             <Flex
                                 direction='column'
                                 alignItems='center'
