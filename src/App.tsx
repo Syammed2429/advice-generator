@@ -1,10 +1,14 @@
-import React from 'react';
+import { Box } from '@chakra-ui/react';
 import { AdviceGenerator } from './Components/AdviceGenerator/AdviceGenerator';
+import './App.css'
 
 function App() {
   return (
     <>
-      <AdviceGenerator />
+      <Box className="App-header">
+
+        <AdviceGenerator />
+      </Box>
     </>
   );
 }
